@@ -1,0 +1,72 @@
+/* ===============================
+   Author: BAREANU MARIUS STEFAN 
+   Date:   2022-08-17
+   
+   Notes:
+   Hand coded for GitHub with HTML & CSS
+
+   
+   Colour Palette:
+   ---------------
+   White: hsl(0, 0%, 100%)
+   Light gray: hsl(212, 45%, 89%)
+   Grayish blue: hsl(220, 15%, 55%)
+   Dark blue: hsl(218, 44%, 22%)
+   =============================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    color: #333;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 636px;
+    height: 1026px;
+    background-color: white;
+    font-size: 15px;    
+    border-radius: 30px;
+    margin: 1440px auto;    
+}
+
+.box {
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+
+img {
+    border-radius: 25px;
+    width: 576px;
+    height: 576px;
+}
+
+
+/* Typography */
+
+h2 {
+    font-size: 45px;
+    margin: 50px auto;
+
+}
+
+p {
+    font-size: 30px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    position: relative;
+    top: 12%;
+    left: 20%;
+}
